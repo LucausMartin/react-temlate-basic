@@ -23,6 +23,8 @@ export default tseslint.config({
       'warn',
       { allowConstantExport: true },
     ],
+    'no-duplicate-imports': 'error',
+    'react-hooks/exhaustive-deps': 0,
   },
   settings: {
     'import/resolver': {
